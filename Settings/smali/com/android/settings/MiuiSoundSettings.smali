@@ -718,6 +718,14 @@
 
     invoke-direct {p0, v0, v1, v2}, Lcom/android/settings/MiuiSoundSettings;->a(Ljava/lang/String;II)V
 
+    const-string v0, "notification_volume" 
+
+    const/4 v1, 0x5
+
+    const v2, 0x7f020345
+
+    invoke-direct {p0, v0, v1, v2}, Lcom/android/settings/MiuiSoundSettings;->a(Ljava/lang/String;II)V
+
     .line 139
     const-string v0, "media_volume"
 

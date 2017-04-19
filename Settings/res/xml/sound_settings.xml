@@ -5,6 +5,7 @@
     <PreferenceCategory android:title="@string/sound_settings" />
     <CheckBoxPreference android:title="@string/silent_mode_title" android:key="silent_mode" android:defaultValue="false" />
     <com.android.settings.sound.VolumeSeekBarPreference android:persistent="true" android:title="@string/ring_volume_option_title" android:key="ring_volume" />
+    <com.android.settings.sound.VolumeSeekBarPreference android:icon="@drawable/ringnotif_volume_icon" android:persistent="true" android:title="@string/notification_volume_option_title" android:key="notification_volume" />
     <com.android.settings.sound.VolumeSeekBarPreference android:persistent="true" android:title="@string/alarm_volume_option_title" android:key="alarm_volume" />
     <com.android.settings.sound.VolumeSeekBarPreference android:persistent="true" android:title="@string/media_volume_option_title" android:key="media_volume" />
     <PreferenceCategory android:title="@string/sound_category_call_ringtone_vibrate_title" android:key="category_calls_and_notification" />
